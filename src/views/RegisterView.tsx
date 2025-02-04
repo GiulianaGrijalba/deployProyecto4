@@ -1,6 +1,6 @@
 'use client'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import toast from 'react-hot-toast';
+
 import { useRouter } from 'next/navigation';
 import { validateRegister } from '../helpers/validate';
 import Link from 'next/link';

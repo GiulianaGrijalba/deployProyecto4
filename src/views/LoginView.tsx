@@ -8,7 +8,7 @@ import { useAuth } from '@/context/AuthContext'
 import Cookies  from 'js-cookie';
 
 const LoginView = () => {
-  const { setUserData, userData } = useAuth();  
+  const { setUserData } = useAuth();  
   const router = useRouter(); 
 
   const formik = useFormik<ILoginProps>({
